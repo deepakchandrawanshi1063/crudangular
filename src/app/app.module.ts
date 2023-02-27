@@ -20,7 +20,8 @@ import {MatDialogModule} from "@angular/material/dialog"
 import {MatFormFieldModule} from "@angular/material/form-field"
 import {MatRadioModule} from "@angular/material/radio"
 import {ReactiveFormsModule} from "@angular/forms"
-import {MatInputModule} from "@angular/material/input"
+import {MatInputModule} from "@angular/material/input";
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {MatInputModule} from "@angular/material/input"
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    UserAddEditDialogComponent
+    UserAddEditDialogComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
